@@ -1,4 +1,7 @@
-export default function FAQPage() {
+import type { NextPage } from 'next'
+
+const FAQ: NextPage = () => {
+
   return (
     <div>
       <h1>Alura Cases - Páginas de Perguntas FAQ</h1>
@@ -6,3 +9,5 @@ export default function FAQPage() {
     </div>
   );
 }
+
+export default FAQ;
