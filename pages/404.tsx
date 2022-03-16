@@ -1,9 +1,13 @@
 import type {NextPage} from "next";
+import Link from '../src/components/Link';
 
 const NotFound: NextPage = () => {
   return (
     <div>
-      <h1>404: VOCÊ ESTÁ PERDIDO!</h1>
+      <h1>Você se perdeu e caiu na página 404 :O</h1>
+      <Link href="/">
+          Ir para a home
+      </Link>
     </div>
   );
 };
